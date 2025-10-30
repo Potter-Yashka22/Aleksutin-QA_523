@@ -1,6 +1,7 @@
 #!/bin/bash
 user=$(whoami)
 day=$(date)
+direct=$(pwd)
 echo "Hello, $user "
 echo "Время запуска скрипта $day"
-echo "Скрипт запущен из диреткории hiden@Ubuntu523 пользователем hiden скрипта $direct"
+echo "Скрипт запущен из диреткории $direct пользователем $user"
